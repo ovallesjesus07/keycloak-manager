@@ -1,6 +1,6 @@
 {
   "name": "keycloak-manager",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist-node/index.js",
   "scripts": {
     "build": "npx tsc src/index.ts --outDir dist-node"
@@ -9,6 +9,10 @@
     "MIT",
     "Apache-2.0"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ovallesjesus07/keycloak-manager"
+  },
   "author": "Jesus Ovalles",
   "contributors": [
     "Jesus Ovalles - omaje2000@gmail.com"
